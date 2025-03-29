@@ -14,7 +14,7 @@
         { "key": "Access-Control-Allow-Credentials", "value": "true" },
         {
           "key": "Access-Control-Allow-Origin",
-          "value": "https://chat-messenger-ten.vercel.app"
+          "value": "https://chat-messenger-fawn.vercel.app"
         },
         {
           "key": "Access-Control-Allow-Methods",
