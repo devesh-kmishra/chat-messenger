@@ -7,7 +7,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: process.env.CLIENT_URL,
+    origin: ["https://chat-messenger-fawn.vercel.app"],
     methods: ["GET", "OPTIONS", "POST", "PUT", "PATCH", "DELETE"],
     credentials: true,
   },
