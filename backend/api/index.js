@@ -9,8 +9,8 @@ import { app, server } from "../src/lib/socket.js";
 
 dotenv.config();
 
-app.use(express.json({ limit: "5mb" }));
-app.use(urlencoded({ limit: "5mb", extended: true }));
+app.use(express.json({ limit: "50mb" }));
+app.use(urlencoded({ limit: "50mb", extended: true }));
 app.use(cookieParser());
 app.use(
   cors({
