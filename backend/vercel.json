@@ -22,7 +22,7 @@
         },
         {
           "key": "Access-Control-Allow-Headers",
-          "value": "X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Authorization, Content-Length, Content-MD5, Content-Type, Cache-Control, Date, X-Api-Version"
+          "value": "Accept, User-Agent, X-Requested-With, Content-Type, Authorization, Cookie, Cache-Control, Server, Set-Cookie, Content-Length"
         }
       ]
     }
